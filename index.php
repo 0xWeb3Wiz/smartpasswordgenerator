@@ -344,7 +344,7 @@ $answers = [
                     <h4 class="font-bold mb-4">Réseaux sociaux</h4>
                     <ul class="inline-flex">
                         <li class="mr-4">
-                            <a href="https://github.com/0xWeb3Wiz" target="_blank" rel="noopener noreferrer" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">
+                            <a href="https://github.com/0xWeb3Wiz/smartpasswordgenerator" target="_blank" rel="noopener noreferrer" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">
                                 GitHub
                             </a>
                         </li> 
