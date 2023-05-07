@@ -193,7 +193,7 @@ $answers = [
     <div class="notification hidden text-green-500 mb-5"></div>
     <div class="mx-auto max-w-4xl mt-20">
         <div class="flex flex-col items-center">
-            <h1 class="text-5xl text-center font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-white">
+            <h1 class="text-5xl text-center font-extrabold text-transparent lg:text-8xl text-2xl bg-clip-text bg-gradient-to-r from-purple-400 to-white">
                 Smart Password Generator</h1>
             <p class="text-xl text-center text-white mt-6 mb-10 py-10 px-4 leading-relaxed">
                 <?php echo $translations[$lang]['description']; ?></p>
@@ -225,7 +225,7 @@ $answers = [
 
 
 
-            <div class="flex flex-row mt-6 w-3/4 justify-center gap-4">
+            <div class=" mt-6 w-3/4 justify-center gap-4 grid grid-cols-2 lg:flex lg:flex-row">
                 <button id="include-uppercase" class="bg-blue-500 text-white px-4 py-2 rounded" data-active="true"><?php echo $translations[$lang]['uppercase']; ?> &#10003;</button>
                 <button id="include-lowercase" class="bg-blue-500 text-white px-4 py-2 rounded" data-active="true"><?php echo $translations[$lang]['lowercase']; ?> &#10003;</button>
                 <button id="include-numbers" class="bg-blue-500 text-white px-4 py-2 rounded" data-active="true"><?php echo $translations[$lang]['numbers']; ?> &#10003;</button>
