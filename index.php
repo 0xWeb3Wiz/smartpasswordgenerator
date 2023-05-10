@@ -30,7 +30,7 @@ switch ($lang) {
 
 $translations = [
     "fr" => [
-        "title" => "Générateur de mots de passe sécurisés et rapides",
+        "title" => "Générateur de mots de passe sécurisés en 1 clic",
         "description" => "Générer des mots de passe sécuriser, protégez vos comptes Gmail, Facebook, Twitch, Discord et Instagram avec des mots de passe solides grâce à Smart Password Generator. Générez gratuitement des mots de passe sécurisés et rapides pour renforcer votre sécurité en ligne et prévenir les cyberattaques. Essayez dès maintenant !",
         "strong" => "Fort",
         "medium" => "Moyen",
@@ -45,8 +45,8 @@ $translations = [
         "generate_for" => "Générer un mot de passe pour",
     ],
     "en" => [
-        "title" => "Secure and Fast Password Generator",
-        "description" => "Generate secure passwords, protect your Gmail, Facebook, Twitch, Discord, and Instagram accounts with strong passwords using Smart Password Generator. Generate free secure and fast passwords to strengthen your online security and prevent cyberattacks. Try it now!",
+        "title" => "Secure Password Generator 1 click",
+        "description" => "Generate secure passwords in 1 click, protect your Gmail, Facebook, Twitch, Discord, and Instagram accounts with strong passwords using Smart Password Generator. Generate free secure and fast passwords to strengthen your online security and prevent cyberattacks. Try it now!",
         "strong" => "Strong",
         "medium" => "Medium",
         "weak" => "Weak",
@@ -217,8 +217,8 @@ $answers = [
 
             <div class="flex flex-row mt-6 w-3/4 justify-center gap-4">
                 <label for="password-length" class="text-xl text-center text-whiteleading-relaxed text-white"><?php echo $translations[$lang]['password_length']; ?></label>
-                <div><input type="range" id="password-length" class="h-2 w-full cursor-ew-resize rounded-full bg-gray-200" min="3" max="48" value="12"></div>
-                <span id="password-length-display" class="text-pink-500 text-2xl font-bold">12</span>
+                <div><input type="range" id="password-length" class="h-2 w-full cursor-ew-resize rounded-full bg-gray-200" min="3" max="48" value="16"></div>
+                <span id="password-length-display" class="text-pink-500 text-2xl font-bold">16</span>
 
 
             </div>
